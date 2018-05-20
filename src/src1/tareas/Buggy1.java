@@ -16,8 +16,9 @@ public class Buggy1 {
 	    {
 	        Input.print("n is ");
 	        n = Input.get_int();
+	        
 	    }
-	    while (n > 0);
+	    while (n < 0);
 	    return n;
 	}
 }
